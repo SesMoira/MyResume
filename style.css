@@ -628,7 +628,7 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
+	/* Hero start */
 	#hero h1 {
 		font-size: 7rem;
 	}
@@ -641,7 +641,7 @@ p {
 	}
 	/*----- End of Education Section -----*/
 
-	/*------ Skills ------*/
+	/*------ Skills Section start  ------*/
 	#skills .skill-item {
 		flex-direction: row;
 	}
@@ -660,9 +660,9 @@ p {
 	#skills .all-skills .skills-img {
 		height: 100%;
 	}
-	/* End Project */
+	/*------- End of Skills -------*/
 
-	/* About */
+	/*-------- About Section ---------*/
 	#about .about {
 		flex-direction: row;
 	}
@@ -685,9 +685,9 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
+	/*--------------- End of About------- */
 
-	/* contact  */
+	/*-------------- Contact --------*/
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
@@ -719,13 +719,13 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	/*---------- End contact----------*/
 }
 /* End of Query For cellphone */
 
-/* Media Query For Desktop */
+/*--------- Media Query ------------*/
 @media only screen and (min-width: 1200px) {
-	/* header */
+	/*------- header -----------*/
 	#header .hamburger {
 		display: none;
 	}
@@ -752,4 +752,4 @@ p {
 		margin: 1.5%;
 	}
 }
-/*----- End of Query for Desktop ------*/
+/*----- End of Media Query ------*/
