@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+      <!--================Header Screen==============-->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#educations" data-after="Education">Education</a></li>
+            <li><a href="#skills" data-after="Skills">Skills</a></li>
+            <li><a href="#contact-wrap" data-after="Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===============End Of Header===========-->
+
+
+  <!------------------- Initial Section  -------------------->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Nokuhle Gamede <span></span></h1>
+        <h2>I'm a <span class="anim"></span></h2>
+        <a href="#skills" type="button" class="cta">Get To Know Me</a>
+      </div>
+      
+<!-----------Typing animation script -------------->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+      <script>
+            var typed = new Typed(".anim", {
+          strings:[ "Designer", "Developer", "Model", "Graduate"
+          ],
+          typeSpeed:100,
+          backSpeed: 100,
+          loop: true,
+          });
+//End of Typing animation script
+      </script>
+    </div>
+  </section>
+  <!------- End of Initial Section  -------->
+
+  <!--------- About Section ------->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./images//DSC_0596.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">My <span>Profile</span></h1>
+        <h2>Information Technology Graduate</h2>
+        <p>Confident to say that I offer strong interpersonal and task
+            prioritization skills, able to perform and deliver desired
+            results. I would like to suggest that I am a critical,
+            creative, and analytical thinker. I am really good with
+            observations and have good communication skills. I am
+            able to blend and adjust very easily in any environment,
+            and a great leader is who I aspire to be. I am able to
+            multitask which improves my speed whenever I am
+            tackling anything. Driven to deliver above expectation<br>
+            <br>I developed My CV site using Visual Studio Code Languages, HTML with
+            CSS and JavaScript</p>
+        <a href="images/GamedeNP_CV (1).pdf" class="cta">Download My Resume</a>
+      </div>
+    </div>
+  </section>
+  <!---------- End About Section -------------->
+
+  <!---------- Education Section -------->
+  <section id="educations">
+    <div class="educations container">
+      <div class="education-top">
+        <h1 class="section-title">Educa<span>tion</span></h1>
+        <p>Present- Completing my studies in Information Technology in the Northwest University
+            i have acquired quite a number of skills that allow me to finnish tasks and deliver 
+            what is required. I have successfully completed all the courses that were given to me 
+            i got exposed to different modules which i wont mention all but some of them are, Apps
+            and Advanced User Inteface, Computer Networks, Object Oriented Programming, Information
+            security, Data Structures and Algorithm, Artificial Intelligence, System analysis and
+            many more which you will learn about in my Academic transcript.
+        </p>
+      </div>
+      <div class="education-bottom">
+        <div class="education-item">
+          <div class="icon"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-medal-canada-independence-day-flatarticons-blue-flatarticons.png"/></div>
+          <h2>Matric Top 3 Achiever</h2>
+          <p>2018-Ratanda Secondary School, Identified as one of the top high 
+              perfoming student in our school, which also
+              obtained 100% pass rate in the year 2018.
+          </p>
+        </div>
+        <div class="education-item">
+          <div class="icon"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-medal-canada-independence-day-flatarticons-blue-flatarticons.png"/></div>
+          <h2>Web Development</h2>
+          <p>Acquired a badge from Credly for finishing a Web development course
+            IBM Badge:
+            https://www.credly.com/badges/67c73546-1db6-489b-8cb6-e0091fc69041
+          </p>
+        </div>
+        <div class="education-item">
+          <div class="icon"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-medal-canada-independence-day-flatarticons-blue-flatarticons.png"/></div>
+          <h2>API Introduction</h2>
+          <p>Acquired a badge from Credly for finishing API Introduction course
+            IBM Badge:
+            https://www.credly.com/badges/fe438772-914c-4941-81ba-1b442478fab7
+        </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------ End Service Section ----------->
+
+  <!------------ Skills Section --------->
+  <section id="skills">
+    <div class="skills container">
+      <div class="skills-header">
+        <h1 class="section-title">My <span>Skills</span></h1>
+      </div>
+      <div class="all-skills">
+        <div class="skill-item">
+          <div class="skill-info">
+            <h1>Soft Skills</h1>
+            <h2>Problem Solving Skills</h2>
+            <p>Critical thinking<br>
+              Analytical thinking<br>
+              Creativity<br>
+              Attention to Detail<br>
+              Ability to learn<br>
+              Communication<br>
+              Ability to adjust
+            </p>
+          </div>
+          <div class="skill-img">
+            <img src="./img/img-1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <h1>Technical Skills</h1>
+            <h2>Software Development</h2>
+            <p>System Analysis<br>
+              System Design<br>
+              Computer Proficiency<br>
+              User Interface Design<br>
+              Web based App Development<br>
+              Case Tools<br>
+              Client-Server<br>
+              Word Processing<br>
+              Excel<br>
+            </p>
+          </div>
+          <div class="skill-img">
+            <img src="./img/img-1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <h1>Programming Skills</h1>
+            <h2>Languages</h2>
+            <p>HTML+CSS<br>
+              C#<br>
+              .Net<br>
+              Java<br>
+              SQL Database\MySQL<br>
+              MSMS<br>
+              C++<br>
+              Python
+            </p>
+          </div>
+          <div class="skill-img">
+            <img src="./img/img-1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <h1>Competencies</h1>
+            <h2>General</h2>
+            <p>Communication<br>
+              Taking Initiative<br>
+              Networking<br>
+              Consistent<br>
+              Load Balancing<br>
+              Innovative
+            </p>
+          </div>
+          <div class="skill-img">
+            <img src="./img/img-1.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------- End Skills Section ------->
+
+  <!--------- Contact Section --------->
+  
+  <section id="contact-wrap">
+    <div class="contact-in">
+      <h5>Contact me</h5>
+      <p>You can get in touch with information below</p>
+
+      <a><img src="https://img.icons8.com/ios-filled/50/000000/apple-phone.png"/></a>
+      <p>0633801719 <br> 0827332039</p>
+
+      <a><img src="https://img.icons8.com/fluency/50/000000/gmail-new.png"/></a>
+      <p>nokuhlegamede12345@gmail.com</p>
+
+      <a><img src="https://img.icons8.com/material-outlined/50/000000/marker.png"/></a>
+      <p>Ratanda, Heidelberg<br>Gauteng<br>1441</p>
+    </div>
+  </section>
+  <!----------- End Contact Section --------->
+
+  <!---------- Start of the Footer --------->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Gam</span>ede <span>Nok</span>uhle</h1>
+      </div>
+      <h2>Connect with me</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/i.am_success/"><img src="https://img.icons8.com/fluency/50/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/success_okuhle"><img src="https://img.icons8.com/color/50/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/portiagamede-sesi/"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 NP Gamede. All rights reserved</p>
+    </div>
+  </section>
+  <!---------- End of Footer ---------->
+  <script src="./app.js"></script>
+    
+</body>
+</html>
